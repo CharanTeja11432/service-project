@@ -1,0 +1,1125 @@
+.home {
+    background-image: url('../images/Home1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 215.5vb;
+    height: 100vh; 
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+    .home button1{
+        position: absolute;
+        width: 20vb;
+        top: -65px;
+        right: 35px;
+       padding: 2px 0px 20px 10px;
+        font-Size: 20px;
+        background-Color: rgba(255, 255, 255, 0);
+        height: 2vh;
+        color: white;
+       
+        border: 1px solid white; 
+        border-radius: 5px;
+        
+        cursor: pointer;
+    }
+    .home button1:hover {
+        cursor: pointer;
+        background: rgba(116, 112, 164, 0.8); 
+        transform: scale(1.05); 
+    }
+    button.connect-button {
+        position: absolute;
+        width: 37vb; /* Use 'vw' for responsive width */
+        top: 70%;
+        left: 170px;
+       padding-left: 16px;
+        font-size: 20px; /* Corrected property name */
+        background: rgba(116, 112, 164, 1);
+        padding-right: -30px;
+        height: 7vh; /* Height of the button */
+        color: white;
+        border: 1px solid white; /* Border color and width */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer;
+        
+        display: flex; /* Flexbox layout */
+        align-items: center; /* Vertically center items */
+        justify-content: center; /* Horizontally center items */
+    }
+    
+    button.connect-button .button-text {
+        margin-right: 6px; /* Space between text and SVG */
+    }
+    
+    button.connect-button svg {
+        display: block;
+    }
+    
+.search{
+    position: absolute;
+    top: -54px;
+    right: 200px;
+    width: 5vb;
+    height: 5vh;
+}
+.home h1{
+   font-size: 55px;
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    margin-left: 100px; 
+    color: aliceblue;
+    font-family: 'Switzer';
+    font-weight: 400;
+}
+.home p{
+    position: absolute;
+    top: 52%;
+    right: 50%;
+    font-family: 'Switzer';
+    font-weight: 200;
+    margin-left: 100px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../images/Home1.jpg');
+    padding: 30px;
+    background-position: absolute;
+    background-size: cover;
+    top:110px;
+  width: 205.5vb;
+  top: 0; 
+  
+  
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 20%;
+  }
+  
+  .navbar li {
+    margin:  5px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .navbar li a:hover {
+    background-color: #872a2a;
+  }
+
+/* Container for the whole layout */
+.container {
+    background-color: linear-gradient(to right, #87CEEB, #FFFFFF);
+    
+    margin: 10% 10%; /* Adjust margins if needed */
+}
+
+/* Content section on the left */
+.home2 {
+    flex: 1;
+   
+    position: absolute;
+    right: 40%;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-right: 200px; 
+}
+
+
+.separator {
+    position: absolute;
+    
+    left:45%;
+    width: 2px; /* Width of the vertical line */
+    background-color: #4a4141; /* Color of the line */
+    height: 50vh; /* Full viewport height */
+    align-self: stretch; /* Ensure it stretches to the height of the container */
+}
+
+
+.image-grid {
+    flex: 3; 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, auto);
+   position: absolute;
+   top: 145%;
+   left:50%; 
+   gap: 30px;
+   margin-right: 40px;
+   
+}  
+
+
+.grid-image {
+    width: 12vb;
+    height: auto;
+}
+.home2 h3{
+color: rgb(81, 116, 117);
+font-size: 30px;
+margin-bottom: -30px;
+}
+
+.home2 h2{
+  font-size: 30px;
+    color: rgb(17, 114, 146);
+}
+.who h2{
+    position: absolute;
+  top:195%;
+left: 3%;;
+font-family: 'Inter';
+
+color: color-mix(in srgb, rgb(32, 169, 207) 40%, rgb(12, 47, 160) 60%);
+}
+.who h3{
+    position: absolute;
+    left: auto;
+    top: 198%;
+    font-family: Inter;
+    margin-left: 40px;
+    font-size: 30px;
+  color: color-mix(in srgb, grey 50%, rgb(213, 34, 216) 50%);
+}
+.who p{
+    position: absolute;
+    top:205%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(242, 245, 247);
+   
+}
+.home3 p{
+    background-image: url('../images/home3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200vb;
+    height:20vh;
+    padding: -90px;
+padding-top: 60px;
+padding-bottom: 30px;
+margin-left: 45px;
+margin-top: 50px;
+font-family: 'Switzer';
+font-weight: 250;
+font-size: 24px;
+}
+.home2 p{
+    color: rgba(138, 135, 135, 1);
+font-weight: 200;
+}
+.home4 p{
+    margin-left: 50px;
+    position: absolute;
+    top: 255%;
+    left: auto;
+    font-size: 30px;
+    color: darkcyan;
+}
+.home4 p1{
+    margin-left: 50px;
+    position: absolute;
+    top: 267%;
+    left: auto;
+    font-size: 30px;
+    color: rgb(153, 60, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side{
+position: absolute;
+top: 280%;
+left: auto;
+width: 50vb;
+height: 192vh;
+margin-left: 30px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+        background-color: rgba(116, 112, 164, 0.71);
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: rgba(116, 112, 164, 0.91); /* Slightly more opaque */
+    }
+    100% {
+        transform: scale(1);
+        background-color: rgba(116, 112, 164, 0.71);
+    }
+}
+
+.side1 {
+    background: rgba(116, 112, 164, 0.71);
+    width: 40vb; 
+    height: 50vh;
+    position: absolute;
+    top: 421%; 
+      left: 85px; 
+    animation: heartbeat 2s infinite; /* Apply the heartbeat animation */
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
+}
+
+
+.side:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1.05);
+}
+
+.side1 p{
+    position: absolute;
+    font-size: Inter;
+    top: 10%;
+    margin-right: 40px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.home5 p{
+    position:absolute;
+    top:475%;
+    left: 30px;
+    font-size: 30px;
+    color: rgba(116, 112, 164, 1);
+
+}
+.home5 h3{
+    position:absolute;
+    top:483%;
+    left: 30px;
+    font-size: 25px;
+
+}
+.featured {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 492%;
+    width: 205vb; /* Note: Adjusted from '205vb' to '205vw' for a more standard unit */
+    padding: 30px;
+    transition: transform 0.2s ease-in-out; /* Smooth transition for zoom effect */
+  }
+  
+  /* Keyframes for zoom in and out */
+  @keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Zoom in */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply animation when hovered */
+  .featured:hover {
+    animation: zoomIn 5s ease-in-out infinite; /* Apply zoom animation on hover */
+  }
+  
+.home5 h2{
+    position:absolute;
+    top:520%;
+    left: 58%;
+    font-size: 25px;
+font-family: Inter;
+color: aliceblue;
+font-size: 30px;
+}
+
+.home5 p1{
+    position:absolute;
+    top:533%;
+    left: 58%;
+    font-size: 25px;
+margin-right: 30px;
+color: aliceblue;
+font-size: 20px;
+}
+
+.button{
+    position: absolute;
+    width: 45vb;
+    top: 570%;
+    right: 240px;
+   
+    font-Size: 20px;
+    background: rgba(116, 112, 164, 1);
+    height: 10vh;
+    color: white;
+   
+   
+    cursor: pointer;
+}
+.button:hover {
+    background: rgba(116, 112, 164, 0.8); /* Slightly transparent background on hover */
+    transform: scale(1.05); /* Slightly scales up the button */
+}
+
+.home6 p{
+    position:absolute;
+    top:600%;
+    left: 30px;
+    font-size: 30px;
+    color: rgba(116, 112, 164, 1);
+
+}
+.home6 h3{
+    position:absolute;
+    top:607%;
+    left: 30px;
+    font-size: 29px;
+
+}
+.img6{
+    background-position: center;
+    background-size: cover;
+    width: 200vb;
+    height: 70vh;
+    position: absolute;
+    top: 617%;
+   margin-left: 25px;
+   margin-top: 25px;
+   padding: 20px;
+}
+.home6 p1{
+    position: absolute;
+    top: 630%;
+    right: 60%;
+    margin-left: 90px;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: Inter;
+}
+
+.sec h1{
+position: absolute;
+top: 630%;
+right:608px;
+color: rgba(255, 255, 255, 0.46);
+font-family: Aeonik Fono;
+}
+.sec b{
+    position: absolute;
+    top: 640%;
+    right:500px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: Inter;
+    padding-top: 5px;
+    }
+    .sec p{
+        position: absolute;
+        top: 644%;
+        left:49.5%;
+        color: rgba(255, 255, 255, 1);
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.61);
+
+        margin-right: 80px;
+        width: 35vb;
+        height: 20vh;
+        }
+
+.sec1 h1{
+    position: absolute;
+    top: 630%;
+    right:300px;
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Aeonik Fono;
+}
+.sec1 b{
+    position: absolute;
+    top: 640%;
+    right:200px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: Inter;
+    padding-top: 5px;
+    }
+.sec1 p{
+    position: absolute;
+    top: 644%;
+  left: 74%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.61);
+            
+    margin-right: 80px;
+    width: 35vb;
+    height: 20vh;
+}
+
+.sec2 h1{
+    position: absolute;
+    top: 660%;
+    right:608px;
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Aeonik Fono;
+    }
+    .sec2 b{
+        position: absolute;
+        top: 670%;
+        right:450px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        font-family: Inter;
+        padding-top: 5px;
+        }
+        .sec2 p{
+            position: absolute;
+            top: 675%;
+            left:49.5%;
+            color: rgba(255, 255, 255, 1);
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.61);
+    
+            margin-right: 80px;
+            width: 35vb;
+            height: 20vh;
+            }
+
+            
+.sec3 h1{
+    position: absolute;
+    top: 660%;
+    right:300px;
+    color: rgba(255, 255, 255, 0.46);
+    font-family: Aeonik Fono;
+}
+.sec3 b{
+    position: absolute;
+    top: 670%;
+    right:170px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: Inter;
+    padding-top: 5px;
+    }
+.sec3 p{
+    position: absolute;
+    top: 675%;
+  left: 74%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.61);
+            
+    margin-right: 80px;
+    width: 35vb;
+    height: 20vh;
+}
+
+.home7 p{
+    position:absolute;
+    top:700%;
+    left: 30px;
+    font-size: 30px;
+    color: rgba(116, 112, 164, 1);
+
+}
+.home7 h3{
+    position:absolute;
+    top:706%;
+    left: 30px;
+    font-size: 29px;
+
+}
+/* .Slider{
+    position: absolute;
+    top: 740% ;
+} */
+.home7 h4{
+    position:absolute;
+    top:710%;
+    left: 30px;
+    font-size: 29px;
+
+}
+.slide{
+    position: absolute;
+    top: 720%;
+    width: 200vb;
+    padding: 40px;
+}
+.girl{
+display: block;  
+height: 70vh;
+width: 30vw;
+top:735%;
+margin-left: 65px;
+position:absolute;
+
+}
+.slideshow p{
+    color: #FFFFFF;
+    position: absolute;
+    top: 740%;
+    left: 40%;
+   margin-right: 150px;
+}
+.slideshow h2{
+    color: #FFFFFF;
+    position: absolute;
+    top: 775%;
+    left: 55%;
+   margin-right: 150px;
+}
+.slideshow p1{
+    color: #FFFFFF;
+    position: absolute;
+    top: 785%;
+    left: 55%;
+   margin-right: 150px;
+}
+.slideshow p2{
+    color: #FFFFFF;
+    position: absolute;
+    top: 790%;
+    left: 55%;
+   margin-right: 150px;
+}
+
+.end1 p6{
+    position: absolute;
+    top: 450px;
+    left: 42%;
+    color: rgba(138, 159, 180, 1);
+
+    font-size: 10px;
+}
+
+
+.end{
+
+top: 826%;
+
+background: rgba(25, 25, 27, 1);
+position: absolute;
+
+
+width: 98.5vw;
+height: 85vh;
+color: aliceblue;
+}
+
+.end1 p{
+    position: absolute;
+    top: 110px;
+    margin-left: 50px;
+    width: 30vb;  color: rgba(255, 255, 255, 0.6);
+    }
+    .end1 h3{
+        position: relative;
+        top: 40px;
+        margin-left: 50px;
+        font-family: Inter;
+        font-size: 25px;
+    }
+    .end1 p1{
+        position: absolute;
+        top: 170px;
+        margin-left: 50px;
+        width: 30vb;   color: rgba(255, 255, 255, 0.6);
+        }
+        .end1 p2{
+            position: absolute;
+            top: 210px;
+            margin-left: 50px;
+            width: 30vb;  color: rgba(255, 255, 255, 0.6);
+            }
+          .end1 p3{
+                position: absolute;
+                top: 290px;
+                margin-left: 50px;  
+                color: rgba(255, 255, 255, 0.6);
+                }
+                .end1 p4{
+                    position: absolute;
+                    top: 250px;
+                    margin-left: 50px;
+                    color: rgba(255, 255, 255, 0.6);
+                    }
+                    .end1 p5{
+                        position: absolute;
+                        top: 330px;
+                        margin-left: 50px;
+                        color: rgba(255, 255, 255, 0.6);
+
+                        }
+                        .end11 p{
+                            position: absolute;
+                            top: 110px;
+                            margin-left: 18%;
+                            width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                            }
+                            .end11 h3{
+                                position: relative;
+                                top: -15px;
+                               margin-left: 18%;
+                                font-family: Inter;
+                                font-size: 25px;
+                            }
+                            .end11 p1{
+                                position: absolute;
+                                top: 170px;
+                                margin-left: 18%;
+                                width: 30vb;   color: rgba(255, 255, 255, 0.6);
+                                }
+                                .end11 p2{
+                                    position: absolute;
+                                    top: 210px;
+                                    margin-left: 18%;
+                                    width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                                    }
+                                  .end11 p3{
+                                        position: absolute;
+                                        top: 290px;
+                                        margin-left: 18%;
+                                          color: rgba(255, 255, 255, 0.6);
+                                        }
+                                        .end11 p4{
+                                            position: absolute;
+                                            top: 250px;
+                                            margin-left: 18%;
+                                             color: rgba(255, 255, 255, 0.6);
+                                            }
+                                            .end11 p5{
+                                                position: absolute;
+                                                top: 330px;
+                                                margin-left: 18%;
+                                                color: rgba(255, 255, 255, 0.6);
+                        
+                                                }
+
+                                                .end12 p{
+                                                    position: absolute;
+                                                    top: 110px;
+                                                    margin-left: 35%;
+                                                    width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                                                    }
+                                                    .end12 h3{
+                                                        position: relative;
+                                                        top: -68px;
+                                                        margin-left: 35%;
+                                                        font-family: Inter;
+                                                        font-size: 25px;
+                                                    }
+                                                    .end12 p1{
+                                                        position: absolute;
+                                                        top: 170px;
+                                                        margin-left:  35%;
+                                                        width: 30vb;   color: rgba(255, 255, 255, 0.6);
+                                                        }
+                                                        .end12 p2{
+                                                            position: absolute;
+                                                            top: 210px;
+                                                            margin-left:  35%;
+                                                            width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                                                            }
+                                                          .end12 p3{
+                                                                position: absolute;
+                                                                top: 250px;
+                                                                margin-left: 35%;
+                                                                 color: rgba(255, 255, 255, 0.6);
+                                                                }
+                                                               
+
+.end13 h3{
+    position: absolute;
+    top: 40px;
+    margin-left: 55%;
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 24px;
+ }                        
+    
+ .end13 button{
+    background: rgba(9, 9, 9, 0.5);
+    border: 1px solid rgba(151, 148, 149, 0.5);
+  position: absolute;
+   padding-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+    width: 30vb;
+   height: 8vh;
+  margin-left: 55%;
+   top: 130px;
+    cursor: pointer;
+}
+.end13 button:hover {
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1); 
+}
+
+.end14{
+    position: absolute;
+    top: 45px;
+    margin-left: 74%;
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 20px;
+ }   
+
+ .end14 svg:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1); 
+}
+
+.home button:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1.05); 
+}
+ .logo{
+    position: absolute;
+    top: -69px;
+    left: 95px;
+    width: 28vb;
+ }
+
+ .software h2{
+    position: absolute;
+    top: 280%;
+    right: 710px;
+    font-size: 20px;
+   
+ }
+ .software h3{
+    position: absolute;
+    top: 285%;
+    right: 669px;
+    font-size: 20px;
+ }
+ .software img{
+    position: absolute;
+    top: 277%;
+    right: 765px;
+    font-size: 25px;
+    width: 5vb;
+ }
+ .software p{
+    position: absolute;
+    top: 293%;
+    right: 209px;
+    font-size: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100vb;
+    color: rgba(25, 25, 27, 0.8);
+
+ }
+
+ button.soft-button {
+    position: absolute;
+    width: 35vb; /* Use 'vw' for responsive width */
+    top: 310%;
+    right: 589px;
+    padding: 15px 15px 10px 22px; /* Padding adjustments */
+    font-size: 15px; /* Corrected property name */
+    background: rgba(116, 112, 164, 0.511);
+
+    height: 10vh; /* Height of the button */
+    color: rgb(7, 6, 6);
+    border: 1px solid white; /* Border color and width */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+
+button.svg .button-text {
+    
+    margin-right: 60px; /* Space between text and SVG */
+}
+
+button.soft-button svg {
+    display: block;
+}
+.soft-button:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1.05);
+}
+.marketing h2{
+    position: absolute;
+    top: 329%;
+    right: 665px;
+    font-size: 20px;
+   
+ }
+ .marketing h3{
+    position: absolute;
+    top: 334%;
+    right: 699px;
+    font-size: 20px;
+ }
+ .marketing img{
+    position: absolute;
+    top: 325%;
+    right: 756px;
+    font-size: 25px;
+    width: 5.5vb;
+ }
+ .marketing p{
+    position: absolute;
+    top: 342%;
+    right: 200px;
+    font-size: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100vb;
+    color: rgba(25, 25, 27, 0.8);
+
+ }
+
+ button.mark-button {
+    position: absolute;
+    width: 35vb; /* Use 'vw' for responsive width */
+    top: 359%;
+    right: 583px;
+    padding: 15px 15px 10px 22px; /* Padding adjustments */
+    font-size: 15px; /* Corrected property name */
+    background: rgba(116, 112, 164, 0.511);
+
+    height: 10vh; /* Height of the button */
+    color: rgb(7, 6, 6);
+    border: 1px solid white; /* Border color and width */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+
+button.svg .mark-text {
+    
+    margin-right: 60px; /* Space between text and SVG */
+}
+
+button.mark-button svg {
+    display: block;
+}
+.mark-button:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1.05);
+}
+
+.staffing h2{
+    position: absolute;
+    top: 383%;
+    right: 689px;
+    font-size: 20px;
+   
+ }
+ .staffing h3{
+    position: absolute;
+    top: 388%;
+    right: 670px;
+    font-size: 20px;
+ }
+ .staffing img{
+    position: absolute;
+    top: 375%;
+    right: 740px;
+    font-size: 25px;
+    width: 8vb;
+ }
+ .staffing p{
+    position: absolute;
+    top: 397%;
+    right: 200px;
+    font-size: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100vb;
+    color: rgba(25, 25, 27, 0.8);
+
+ }
+ button.staff-button {
+    position: absolute;
+    width: 35vb; /* Use 'vw' for responsive width */
+    top: 414%;
+    right: 583px;
+    padding: 15px 15px 10px 22px; /* Padding adjustments */
+    font-size: 15px; /* Corrected property name */
+    background: rgba(116, 112, 164, 0.511);
+
+    height: 10vh; /* Height of the button */
+    color: rgb(7, 6, 6);
+    border: 1px solid white; /* Border color and width */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+
+button.svg .staff-text {
+    
+    margin-right: 60px; /* Space between text and SVG */
+}
+
+button.staff-button svg {
+    display: block;
+}
+.staff-button:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1.05);
+}
+
+.bussiness h2{
+    position: absolute;
+    top: 434%;
+    right: 707px;
+    font-size: 20px;
+   
+ }
+ .bussiness h3{
+    position: absolute;
+    top: 438%;
+    right: 685px;
+    font-size: 20px;
+ }
+ .bussiness img{
+    position: absolute;
+    top: 428%;
+    right: 745px;
+    font-size: 25px;
+    width: 7vb;
+ }
+ .bussiness p{
+    position: absolute;
+    top: 446%;
+    right: 200px;
+    font-size: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100vb;
+    color: rgba(25, 25, 27, 0.8);
+
+ }
+
+ button.bussiness-button {
+    position: absolute;
+    width: 35vb; /* Use 'vw' for responsive width */
+    top: 463%;
+    right: 580px;
+    padding: 15px 15px 10px 22px; /* Padding adjustments */
+    font-size: 15px; /* Corrected property name */
+    background: rgba(116, 112, 164, 0.511);
+
+    height: 10vh; /* Height of the button */
+    color: rgb(7, 6, 6);
+    border: 1px solid white; /* Border color and width */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+
+button.svg .bussiness-text {
+    
+    margin-right: 60px; /* Space between text and SVG */
+}
+
+button.bussiness-button svg {
+    display: block;
+}
+.bussiness-button:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1.05);
+}
+
+.bajaj{
+    position: absolute;
+    top: 785%;
+    left: 42%;
+    width: 20vb;
+}
+
+.soft-separator {
+    position: absolute;
+    top: 283.5%;
+    left:36%;
+    width: 2px; 
+    background-color: #4a4141; 
+    height: 9vh; 
+    align-self: stretch; 
+}
+.mark-separator {
+    position: absolute;
+    top: 333%;
+    left:37%;
+    width: 2px; 
+    background-color: #4a4141; 
+    height: 9vh; 
+    align-self: stretch; 
+}
+.staff-separator {
+    position: absolute;
+    top: 386.5%;
+    left:37%;
+    width: 2px; 
+    background-color: #4a4141; 
+    height: 9vh; 
+    align-self: stretch; 
+}
+.bussiness-separator {
+    position: absolute;
+    top: 437.5%;
+    left:37%;
+    width: 2px; 
+    background-color: #4a4141; 
+    height: 9vh; 
+    align-self: stretch; 
+}
+
+.myhome{
+   background: linear-gradient(to right, #FEDFFD,#c4bdba);
+    width: 100%;
+    height: 895vh;
+}
+
+.bajaj-separator {
+    position: absolute;
+    top: 780%;
+    left:53%;
+    width: 2px; 
+    background-color: #fffbfb; 
+    height:14vh; 
+    align-self: stretch; 
+}
+
+

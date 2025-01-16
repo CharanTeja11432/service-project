@@ -1,0 +1,1590 @@
+
+
+
+
+.serve{
+    background: rgba(54, 52, 58, 1);
+position: absolute;
+top: 91px;
+    width: 100%;
+    height: 85vh;
+    color: aliceblue;
+    
+}
+
+.serve h3{
+    position: absolute;
+    left: 35%;
+    top: 75px;
+    font-size: 22px;
+    font-family: 'Switzer';
+    font-size: 30px;
+    font-weight: 400;
+}
+.sepa-rator {
+    position: absolute;
+    border-radius: 30%;
+    top: 140px;
+    left:180px;
+    width: 6px; /* Width of the vertical line */
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; /* Full viewport height */
+    align-self: stretch; /* Ensure it stretches to the height of the container */
+}
+.separator1 {
+    position: absolute;
+    border-radius: 30%;
+    top: 320px;
+    left:180px;
+    width: 6px; /* Width of the vertical line */
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; /* Full viewport height */
+    align-self: stretch; /* Ensure it stretches to the height of the container */
+}
+.separator2 {
+    position: absolute;
+    border-radius: 30%;
+    top: 140px;
+    right: 41%;
+    width: 6px; /* Width of the vertical line */
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; /* Full viewport height */
+    align-self: stretch; /* Ensure it stretches to the height of the container */
+}
+.separator3 {
+    position: absolute;
+    border-radius: 30%;
+    top: 330px;
+    right:41%;
+    width: 6px; /* Width of the vertical line */
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; /* Full viewport height */
+    align-self: stretch; /* Ensure it stretches to the height of the container */
+}
+.serve p{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    color: rgba(255, 255, 255, 0.7);
+    width: 130vb;
+    height: 30vh;
+    font-family: 'Switzer';
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+.serve button{
+    position: absolute;
+    width: 30vb;
+    top: 280px;
+    right: 51%;
+   padding: 10px 10px 10px 10px;
+    font-Size: 20px;
+    background-Color: rgba(255, 255, 255, 0);
+    height: 8vh;
+    color: white;
+   
+    border: 1px solid white; /* Border color and width */
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+.serve button:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(1.05); 
+}
+
+.serve p1{
+    position: absolute;
+    left: 120px;
+    top: 25%;
+    color: rgba(255, 255, 255, 0.7);
+    width: 130vb;
+    
+    font-size: 17px;
+}
+.serve p2{
+    position: absolute;
+    left: 120px;
+    top: 38%;
+    color: rgba(255, 255, 255, 0.7);
+    width: 130vb;
+    
+    font-size: 17px;
+}
+.serve p3{
+    position: absolute;
+    left: 120px;
+    top: 48%;
+    color: rgba(255, 255, 255, 0.7);
+    width: 130vb;
+    
+    font-size: 17px;
+}
+.serve p4{
+    position: absolute;
+    left: 120px;
+    top: 58%;
+    color: rgba(255, 255, 255, 0.7);
+    width: 130vb;
+    
+    font-size: 17px;
+}
+.serve svg{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    color: rgba(255, 255, 255, 0.7);
+    width: 7vb;
+}
+.serve line{
+border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.service{
+    background: rgba(54, 52, 58, 1);
+position: absolute;
+top: 91px;
+    width: 100%;
+    height: 85vh;
+    color: aliceblue;
+}
+
+.service p{
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 50px;
+    left: 24%;
+font-weight: 170;
+font-size: 22px;
+font-family: 'Switzer';
+}
+
+.service h1{
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    top: 120px;
+    left: 16%;
+}
+.service p1{
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 200px;
+    left: 16%;
+    font-family: 'Switzer';
+font-size: 18px;
+font-weight: 200;
+width: 25vw;
+}
+
+.service h2{
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    top: 300px;
+    left: 16%;
+    font-size: 30px;
+}
+.service p11{
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 380px;
+    left: 16%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 200;
+    width: 25vw;
+}
+
+.service h3{
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    top: 115px;
+    right: 16%;
+    font-size: 30px;
+}
+.service p12{
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 200px;
+    right: 14%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 200;
+    width: 25vw;
+}
+
+.service h4{
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    top: 290px;
+    right: 16%;
+    font-size: 30px;
+}
+.service p13{
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 380px;
+    right: 14%;
+    font-family: 'Switzer';
+    font-size: 18px;
+    font-weight: 200;
+    width: 25vw;
+}
+
+.service1 h1{
+    position: absolute;
+    top: 123%;
+    left: 10%;
+    font-size: 22px;
+}
+.service1 h2{
+    position: absolute;
+    top: 128%;
+    left: 10%;
+    font-size: 20px;
+}
+
+.soft-ware{
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    width: 6vb;
+}
+
+.soft-ware-separator {
+    position: absolute; 
+    top: 126.5%;
+    left:115px;
+    width: 3px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+}
+
+.custom h1{
+    position: absolute;
+    top:131%;
+    left:41%;
+    font-size: 20px;
+}
+.custom h2{
+    position: absolute;
+    top:135%;
+    left:41%;
+}
+
+.custom-separator {
+    position: absolute;
+    top: 134%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.custom p{
+    position: absolute;
+    top:144%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.custom p1{
+    position: absolute;
+    top:160%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.custom svg{
+    position: absolute;
+    top:155%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.web h1{
+    position: absolute;
+    top:168%;
+    left:41%;
+    font-size: 20px;
+}
+.web h2{
+    position: absolute;
+    top:172%;
+    left:41%;
+}
+
+.web-separator {
+    position: absolute;
+    top: 171%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.web p{
+    position: absolute;
+    top:180%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.web p1{
+    position: absolute;
+    top:197%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.web svg{
+    position: absolute;
+    top:191.75%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.mobile h1{
+    position: absolute;
+    top:205%;
+    left:41%;
+    font-size: 20px;
+}
+.mobile h2{
+    position: absolute;
+    top:209%;
+    left:41%;
+}
+
+.mob-separator {
+    position: absolute;
+    top: 208%;
+    left:40%; 
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.mobile p{
+    position: absolute;
+    top:218%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.mobile p1{
+    position: absolute;
+    top:235%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.mobile svg{
+    position: absolute;
+    top:229.75%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.enter h1{
+    position: absolute;
+    top:242%;
+    left:41%;
+    font-size: 20px;
+}
+.enter h2{
+    position: absolute;
+    top:246%;
+    left:41%;
+}
+
+.enter-separator {
+    position: absolute;
+    top: 245%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.enter p{
+    position: absolute;
+    top:255%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.enter p1{
+    position: absolute;
+    top:272%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.enter svg{
+    position: absolute;
+    top:266.75%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.cloud h1{
+    position: absolute;
+    top:279%;
+    left:41%;
+    font-size: 20px;
+}
+.cloud h2{
+    position: absolute;
+    top:283%;
+    left:41%;
+}
+
+.cloud-separator {
+    position: absolute;
+    top: 282%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.cloud p{
+    position: absolute;
+    top:292%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.cloud p1{
+    position: absolute;
+    top:309%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.cloud svg{
+    position: absolute;
+    top:304%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.main-support h1{
+    position: absolute;
+    top:317%;
+    left:41%;
+    font-size: 22px;
+}
+.main-support h2{
+    position: absolute;
+    top:321%;
+    left:41%;
+}
+
+.main-support-separator {
+    position: absolute;
+    top: 320%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.main-support p{
+    position: absolute;
+    top:330%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.main-support p1{
+    position: absolute;
+    top:347%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.main-support svg{
+    position: absolute;
+    top:342%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.service2 h1{
+    position: absolute;
+    top: 373%;
+    left: 10%;
+    font-size: 22px;
+}
+.service2 h2{
+    position: absolute;
+    top: 378%;
+    left: 10%;
+    font-size: 22px;
+}
+
+.mark-brand{
+    position: absolute;
+    top: 365%;
+    left: 10%;
+    width: 6vb;
+}
+
+.mark-brand-separator {
+    position: absolute; 
+    top: 377%;
+    left:115px;
+    width: 3px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+}
+
+.digital h1{
+    position: absolute;
+    top:380%;
+    left:41%;
+    font-size: 22px;
+}
+.digital h2{
+    position: absolute;
+    top:385%;
+    left:41%;
+}
+
+.digital-separator {
+    position: absolute;
+    top: 384%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.digital p{
+    position: absolute;
+    top:392%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.digital p1{
+    position: absolute;
+    top:405%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.digital svg{
+    position: absolute;
+    top:400%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.social-media h1{
+    position: absolute;
+    top:414%;
+    left:41%;
+    font-size: 22px;
+}
+.social-media h2{
+    position: absolute;
+    top:418%;
+    left:41%;
+}
+
+.social-media-separator {
+    position: absolute;
+    top: 417.75%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.social-media p{
+    position: absolute;
+    top:428%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.social-media p1{
+    position: absolute;
+    top:441%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.social-media svg{
+    position: absolute;
+    top:436%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.search-engine h1{
+    position: absolute;
+    top:449%;
+    left:41%;
+    font-size: 22px;
+}
+.search-engine h2{
+    position: absolute;
+    top:453%;
+    left:41%;
+}
+
+.search-engine-separator {
+    position: absolute;
+    top: 453%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.search-engine p{
+    position: absolute;
+    top:463%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.search-engine p1{
+    position: absolute;
+    top:473%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.search-engine svg{
+    position: absolute;
+    top:468%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.content h1{
+    position: absolute;
+    top:481%;
+    left:41%;
+    font-size: 22px;
+}
+.content h2{
+    position: absolute;
+    top:485%;
+    left:41%;
+}
+
+.content-separator {
+    position: absolute;
+    top: 484.50%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+    
+}
+.content p{
+    position: absolute;
+    top:494%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.content p1{
+    position: absolute;
+    top:503%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.content svg{
+    position: absolute;
+    top:498%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.pay-per h1{
+    position: absolute;
+    top:510%;
+    left:41%;
+    font-size: 22px;
+}
+.pay-per h2{
+    position: absolute;
+    top:515%;
+    left:41%;
+}
+
+.pay-per-separator {
+    position: absolute;
+    top: 514%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.pay-per p{
+    position: absolute;
+    top:524%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.pay-per p1{
+    position: absolute;
+    top:533%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.pay-per svg{
+    position: absolute;
+    top:528%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.email h1{
+    position: absolute;
+    top:540%;
+    left:41%;
+    font-size: 22px;
+}
+.email h2{
+    position: absolute;
+    top:545%;
+    left:41%;
+}
+
+.email-separator {
+    position: absolute;
+    top: 544%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.email p{
+    position: absolute;
+    top:554%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.email p1{
+    position: absolute;
+    top:567%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.email svg{
+    position: absolute;
+    top:562%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.branding h1{
+    position: absolute;
+    top:573%;
+    left:41%;
+    font-size: 22px;
+}
+.branding h2{
+    position: absolute;
+    top:577%;
+    left:41%;
+}
+
+.branding-separator {
+    position: absolute;
+    top: 576%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.branding p{
+    position: absolute;
+    top:586%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.branding p1{
+    position: absolute;
+    top:599%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.branding svg{
+    position: absolute;
+    top:594%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.staff-ing{
+    position: absolute;
+    top: 613%;
+    left: 10%;
+    width: 8vb;
+}
+
+.staff-ing-separator {
+    position: absolute; 
+    top: 627%;
+    left:115px;
+    width: 3px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+}
+
+.ser-vice3 h1{
+    position: absolute;
+    top: 623%;
+    left:10%;
+    font-size: 22px;
+}
+
+.ser-vice3 h2{
+    position: absolute;
+    top: 628%;
+    left:10%;
+    font-size: 22px;
+}
+
+.custo-mer h1{
+    position: absolute;
+    top:630%;
+    left:41%;
+    font-size: 22px;
+}
+.custo-mer h2{
+    position: absolute;
+    top:634%;
+    left:41%;
+}
+
+.custo-mer-separator {
+    position: absolute;
+    top: 633%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.custo-mer p{
+    position: absolute;
+    top:643%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.custo-mer p1{
+    position: absolute;
+    top:660%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.custo-mer svg{
+    position: absolute;
+    top:655%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.web-app h1{
+    position: absolute;
+    top:667%;
+    left:41%;
+    font-size: 22px;
+}
+.web-app h2{
+    position: absolute;
+    top:671%;
+    left:41%;
+}
+
+.web-app-separator {
+    position: absolute;
+    top: 670%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.web-app p{
+    position: absolute;
+    top:680%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.web-app p1{
+    position: absolute;
+    top:697%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.web-app svg{
+    position: absolute;
+    top:692%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.cloud-computing h1{
+    position: absolute;
+    top:703%;
+    left:41%;
+    font-size: 22px;
+}
+.cloud-computing h2{
+    position: absolute;
+    top:707%;
+    left:41%;
+}
+
+.cloud-computing-separator {
+    position: absolute;
+    top: 706%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.cloud-computing p{
+    position: absolute;
+    top:716%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.cloud-computing p1{
+    position: absolute;
+    top:733%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.cloud-computing svg{
+    position: absolute;
+    top:728%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.main-tenance h1{
+    position: absolute;
+    top:739%;
+    left:41%;
+    font-size: 22px;
+}
+.main-tenance h2{
+    position: absolute;
+    top:743%;
+    left:41%;
+}
+
+.main-tenance-separator {
+    position: absolute;
+    top: 742%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.main-tenance p{
+    position: absolute;
+    top:752%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.main-tenance p1{
+    position: absolute;
+    top:769%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.main-tenance svg{
+    position: absolute;
+    top:764%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.ser-vice4 h1{
+    position: absolute;
+    top: 794%;
+    left:10%;
+    font-size: 22px;
+}
+
+.ser-vice4 h2{
+    position: absolute;
+    top: 799%;
+    left:10%;
+    font-size: 22px;
+}
+
+.buss-con{
+    position: absolute;
+    top: 786%;
+    left: 10%;
+    width: 8vb;
+}
+
+.bus-con-separator{
+    position: absolute; 
+    top: 798%;
+    left:115px;
+    width: 3px; 
+    background: rgba(116, 112, 164, 1);
+    height: 8vh; 
+    align-self: stretch; 
+}
+
+.custo-soft h1{
+    position: absolute;
+    top:802%;
+    left:41%;
+    font-size: 22px;
+}
+.custo-soft h2{
+    position: absolute;
+    top:806%;
+    left:41%;
+}
+
+.custo-soft-separator {
+    position: absolute;
+    top: 805%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.custo-soft p{
+    position: absolute;
+    top:816%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.custo-soft p1{
+    position: absolute;
+    top:832%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.custo-soft svg{
+    position: absolute;
+    top:827%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.web-dev h1{
+    position: absolute;
+    top:840%;
+    left:41%;
+    font-size: 22px;
+}
+.web-dev  h2{
+    position: absolute;
+    top:844%;
+    left:41%;
+}
+
+.web-dev-separator {
+    position: absolute;
+    top: 843%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.web-dev p{
+    position: absolute;
+    top:852%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.web-dev  p1{
+    position: absolute;
+    top:869%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.web-dev  svg{
+    position: absolute;
+    top:864%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.mob-app h1{
+    position: absolute;
+    top:876%;
+    left:41%;
+    font-size: 22px;
+}
+.mob-app  h2{
+    position: absolute;
+    top:880%;
+    left:41%;
+}
+
+.mob-app-separator {
+    position: absolute;
+    top: 879%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.mob-app p{
+    position: absolute;
+    top:889%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.mob-app p1{
+    position: absolute;
+    top:906%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.mob-app  svg{
+    position: absolute;
+    top:901%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.ent-soft h1{
+    position: absolute;
+    top:913%;
+    left:41%;
+    font-size: 22px;
+}
+.ent-soft  h2{
+    position: absolute;
+    top:917%;
+    left:41%;
+}
+
+.ent-soft-separator {
+    position: absolute;
+    top: 916%;
+    left:40%;
+    width: 2px; 
+    background: rgba(116, 112, 164, 1);
+    height: 9vh; 
+    align-self: stretch; 
+    
+}
+.ent-soft p{
+    position: absolute;
+    top:927%;
+    left:41%;
+    color: rgba(25, 25, 27, 1);
+    font-weight: 10;
+    width: 117vb;
+}
+.ent-soft p1{
+    position: absolute;
+    top:944%;
+    left:41%;
+    color: rgba(29, 88, 245, 1);
+    text-decoration: underline;
+}
+.ent-soft  svg{
+    position: absolute;
+    top:939%;
+    left:49%;
+    color: rgba(29, 88, 245, 1);
+    width: 6vb;
+}
+
+.blue-img{
+    position: absolute;
+    top: 965%;
+    width: 90%;
+    left: 4%;
+    bottom: 10%;
+    padding: 10px 10px 50px 10px;
+}
+
+.blue p{
+    position: absolute;
+    top: 967%;
+    left: 14%;
+    color: rgb(246, 244, 244);
+    width: 70vb;
+    font-size: 30px;
+    font-family: 'Switzer';
+}
+
+
+
+.blue button{
+    position: absolute;
+    width: 45vb;
+    top: 975%;
+    right: 240px;
+   
+    font-Size: 20px;
+    background: rgba(227, 231, 244, 1);
+
+    height: 10vh;
+    color: rgb(3, 3, 3);
+   
+   
+    cursor: pointer;
+}
+.blue button:hover {
+    background: rgba(54, 174, 221, 0.8); /* Slightly transparent background on hover */
+    transform: scale(1.05); /* Slightly scales up the button */
+}
+
+.blue svg{
+    position: absolute;
+    top: 972%;
+    right: 230px;
+}
+
+/* /////End page serveice//? */
+
+.end1-serve p6{
+    position: absolute;
+    top: 450px;
+    left: 42%;
+    color: rgba(138, 159, 180, 1);
+
+    font-size: 10px;
+}
+
+
+.end-serve{
+
+top: 1006%;
+
+background: rgba(25, 25, 27, 1);
+position: absolute;
+
+
+width: 98.5vw;
+height: 85vh;
+color: aliceblue;
+}
+
+.end1-serve p{
+    position: absolute;
+    top: 110px;
+    margin-left: 50px;
+    width: 30vb;  color: rgba(255, 255, 255, 0.6);
+    }
+    .end1-serve h3{
+        position: relative;
+        top: 40px;
+        margin-left: 50px;
+        font-family: Inter;
+        font-size: 25px;
+    }
+    .end1-serve p1{
+        position: absolute;
+        top: 170px;
+        margin-left: 50px;
+        width: 30vb;   color: rgba(255, 255, 255, 0.6);
+        }
+        .end1-serve p2{
+            position: absolute;
+            top: 210px;
+            margin-left: 50px;
+            width: 30vb;  color: rgba(255, 255, 255, 0.6);
+            }
+          .end1-serve p3{
+                position: absolute;
+                top: 290px;
+                margin-left: 50px;  
+                color: rgba(255, 255, 255, 0.6);
+                }
+                .end1-serve p4{
+                    position: absolute;
+                    top: 250px;
+                    margin-left: 50px;
+                    color: rgba(255, 255, 255, 0.6);
+                    }
+                    .end1-serve p5{
+                        position: absolute;
+                        top: 330px;
+                        margin-left: 50px;
+                        color: rgba(255, 255, 255, 0.6);
+
+                        }
+                        .end11-serve p{
+                            position: absolute;
+                            top: 110px;
+                            margin-left: 18%;
+                            width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                            }
+                            .end11-serve h3{
+                                position: relative;
+                                top: -15px;
+                               margin-left: 18%;
+                                font-family: Inter;
+                                font-size: 25px;
+                            }
+                            .end11-serve p1{
+                                position: absolute;
+                                top: 170px;
+                                margin-left: 18%;
+                                width: 30vb;   color: rgba(255, 255, 255, 0.6);
+                                }
+                                .end11-serve p2{
+                                    position: absolute;
+                                    top: 210px;
+                                    margin-left: 18%;
+                                    width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                                    }
+                                  .end11-serve p3{
+                                        position: absolute;
+                                        top: 290px;
+                                        margin-left: 18%;
+                                          color: rgba(255, 255, 255, 0.6);
+                                        }
+                                        .end11-serve p4{
+                                            position: absolute;
+                                            top: 250px;
+                                            margin-left: 18%;
+                                             color: rgba(255, 255, 255, 0.6);
+                                            }
+                                            .end11-serve p5{
+                                                position: absolute;
+                                                top: 330px;
+                                                margin-left: 18%;
+                                                color: rgba(255, 255, 255, 0.6);
+                        
+                                                }
+
+                                                .end12-serve p{
+                                                    position: absolute;
+                                                    top: 110px;
+                                                    margin-left: 35%;
+                                                    width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                                                    }
+                                                    .end12-serve h3{
+                                                        position: relative;
+                                                        top: -68px;
+                                                        margin-left: 35%;
+                                                        font-family: Inter;
+                                                        font-size: 25px;
+                                                    }
+                                                    .end12-serve p1{
+                                                        position: absolute;
+                                                        top: 170px;
+                                                        margin-left:  35%;
+                                                        width: 30vb;   color: rgba(255, 255, 255, 0.6);
+                                                        }
+                                                        .end12-serve p2{
+                                                            position: absolute;
+                                                            top: 210px;
+                                                            margin-left:  35%;
+                                                            width: 30vb;  color: rgba(255, 255, 255, 0.6);
+                                                            }
+                                                          .end12-serve p3{
+                                                                position: absolute;
+                                                                top: 250px;
+                                                                margin-left: 35%;
+                                                                 color: rgba(255, 255, 255, 0.6);
+                                                                }
+                                                               
+
+.end13-serve h3{
+    position: absolute;
+    top: 40px;
+    margin-left: 55%;
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 24px;
+ }                        
+    
+ .end13-serve button{
+    background: rgba(9, 9, 9, 0.5);
+    border: 1px solid rgba(151, 148, 149, 0.5);
+  position: absolute;
+   padding-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+    width: 30vb;
+   height: 8vh;
+  margin-left: 55%;
+   top: 130px;
+    cursor: pointer;
+}
+.end13-serve button:hover {
+    background: rgba(116, 112, 164, 0.8); /* Slightly transparent background on hover */
+    transform: scale(1.05); /* Slightly scales up the button */
+}
+
+.end14-serve{
+    position: absolute;
+    top: 45px;
+    margin-left: 74%;
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 20px;
+ }   
+
+ .end14-serve svg:hover {
+    cursor: pointer;
+    background: rgba(116, 112, 164, 0.8); 
+    transform: scale(0.5); 
+}
+
+.service-page-gred{
+    background: linear-gradient(to right, #fde7fc,#e0dad7);
+    width: 100%;
+    height: 995vh;
+}
+
+
+.soft-under{
+        position: absolute; 
+        top: 31%;
+        left:115px;
+        width: 14vw; 
+        background: rgba(255, 255, 255, 0.6);
+        height:0.07px;
+        align-self: stretch; 
+}
+
+.soft-under1{
+    position: absolute; 
+    top: 44%;
+    left:115px;
+    width: 14vw; 
+    background: rgba(255, 255, 255, 0.6);
+    height:0.07px;
+    align-self: stretch; 
+}
+
+.soft-under2{
+    position: absolute; 
+    top: 54%;
+    left:115px;
+    width: 14vw; 
+    background: rgba(255, 255, 255, 0.6);
+    height:0.07px;
+    align-self: stretch; 
+}
+.soft-under3{
+    position: absolute; 
+    top: 64%;
+    left:115px;
+    width: 14vw; 
+    background: rgba(255, 255, 255, 0.6);
+    height:0.07px;
+    align-self: stretch; 
+}
